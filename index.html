@@ -4,19 +4,94 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="top">
-      <h1>Prework Study Guide</h1>
+      <h1>Prework Study Guide!</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
-      <!-- Student code goes here -->
+      <section class ="card" id="html-section">
+        <h2>HTML</h2>
+        <ul>
+          <li>The head element contains information about the webpage.</li>
+          <li>The body element represents the visible content shown to the user.</li>
+          <li>User visible elements include:</li>
+          <ul> 
+            <ol>
+              <li>Ordered Lists (Numbered List).</li>
+              <li>Unordered Lists (Bullet Points).</li>
+              <li>Text blocks.</li>
+            </ol>
+          </ul>
+          <li>HTML is the "house foundation and framing" of web page development.</li>
+        </ul>
+      </section>
+      <section class ="card" id="css - section">
+        <h2>CSS</h2>
+        <h4>Inline CSS</h4>
+        <ul>
+          <li>Styles directy in the HTML file.</li>
+          <li>Applies to a specific HTML tag.</li>
+        </ul>
+        <h4>Internal CSS</h4>
+        <ul>
+          <li>Added in the HTML < head > using < style > tag.</style>.</head></li>
+        </ul>
+        <h4>External CSS</h4>
+        <h5>Preferred Method</h5>
+        <ul>
+          <li>Styles stored in an external file.</li>
+          <li>Link the file using < link > in HTML < head ></li>
+        </ul>
+      </section>
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <ul>
+          <li>git status: checks what branch of repo we are currently on</li>
+          <li>git checkout -b branch-name: creates a new branch and moves to it</li>
+          <li>git checkout branch-name: move to that branch</li>
+          <li>git pull origin branch-name:</li>
+            <ul>
+              <li>pull = download</li>
+              <li>origin = github repo</li>
+            </ul>
+          <b>THIS IS WHERE YOU START TO SYNC TO GITHUB!</b>
+          <li> git add -A:</li>
+            <ul>
+              <li> -A = all files in directory</li>
+            </ul>
+          <li>git commit -m "description":</li>
+            <ul>
+              <li>commit = save</li>
+              <li> -m = adds a comment to commit, comment is typed in place of "description"</li>
+            </ul>
+          <li><b>git pull origin main</b></li>
+          <li>git push origin branch-name</li>
+            <ul>
+              <li>pull = upload</li>
+              <li>origin = github repo</li>
+            </ul>
+        </ul>
+      </section>
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>  
+        <ul>
+          <li>A variable is a named container that allows us to store data in our code.</li>
+          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>An array is a variable which contain multiple variables (can have different data types)</li>
+          <li>Functions are stored procedures that you can 'call' throughout your code by using the function_name()</li>
+        </ul>
+      </section>
     </main>
 
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
+
